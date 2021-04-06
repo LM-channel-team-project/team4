@@ -1,1 +1,27 @@
 /* 메인에 적용시킬 css */
+.carousel-item {
+    margin-top: 30px;
+    height: 400px;
+    background-size: cover;
+}
+
+.carousel-item.item1 {
+    background-image: url('../client/images/mix.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.carousel-item.item2 {
+    background-image: url('../client/images/frontend.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.carousel-item.item3 {
+    background-image: url('../client/images/spring.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
